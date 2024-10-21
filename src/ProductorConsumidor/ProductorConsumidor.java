@@ -18,6 +18,7 @@ public class ProductorConsumidor {
         consumidor.start();
     }
 
+   
     // Clase del Productor
     static class Productor implements Runnable {
         Random random = new Random();
