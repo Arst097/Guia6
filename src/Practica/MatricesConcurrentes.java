@@ -62,6 +62,8 @@ public class MatricesConcurrentes {
     }
 }
 
+
+
 class multiplicacionMatrices implements Runnable {
     private double[][] matrizA;
     private double[][] matrizB;
